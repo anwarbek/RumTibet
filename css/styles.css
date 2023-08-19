@@ -53,6 +53,57 @@
   font-display: swap;
 }
 
+a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.192px;
+  transition: color 0.9s;
+}
+
+.btn-big {
+  padding: 16px 36px;
+}
+
+.btn-green {
+  color: #fdfdfd;
+  background-color: #1A3E3E;
+}
+
+.btn-white {
+  border: 1px solid #1A3E3E;
+  color: #1A3E3E;
+  background-color: #fdfdfd;
+}
+
+.btn-green:hover {
+  border: 1px solid #1A3E3E;
+  color: #1A3E3E;
+  background-color: #fdfdfd;
+}
+
+.btn-green:active {
+  opacity: 0.6;
+}
+
+.btn-white:hover {
+  border: none;
+  color: #fdfdfd;
+  background-color: #1A3E3E;
+}
+
+.btn-white:active {
+  opacity: 0.6;
+}
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
